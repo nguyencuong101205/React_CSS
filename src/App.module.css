@@ -1,0 +1,27 @@
+/* CSS Module riêng biệt cho App Component (tránh trùng tên class toàn cục) */
+.container {
+  max-width: 680px;
+  margin: 2rem auto;
+  padding: var(--space-6);
+  background-color: var(--bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: var(--space-4);
+  letter-spacing: -0.025em;
+}
+
+.section {
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.section:last-child {
+  border-bottom: none;
+}

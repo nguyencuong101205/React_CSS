@@ -1,0 +1,13 @@
+/* Import các file CSS phân hệ theo chuẩn dự án */
+@import "./reset.css";
+@import "./variables.css";
+@import "./components.css";
+@import "./responsive.css";
+@import "tailwindcss";
+
+/* Base styles bổ sung */
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+}
